@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Purchase – Volta Motors</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<header><nav><a class="logo" href="index.html">Volta<span>.</span></a><a class="l" href="index.html">Home</a><a class="l" href="products.html">Products</a><a class="l" href="sales.html">Sales</a><a class="l on" href="purchase.html">Purchase</a><a class="l" href="testimonials.html">Testimonials</a><a class="l" href="faq.html">FAQ</a><a class="l" href="contact.html">Contact us</a></nav></header><main><h2>Reserve your Volta</h2><p>Pay a fully refundable ₹11,000 booking amount. We will call you to confirm delivery and complete the paperwork.</p>
+<div class="split" style="align-items:start"><form id="pf">
+<label>Model<select id="model"><option value="city">Volta City – ₹9,99,000</option><option value="aero" selected>Volta Aero – ₹17,99,000</option><option value="terra">Volta Terra – ₹24,99,000</option></select></label>
+<label>Colour<select><option>Glacier white</option><option>Midnight blue</option><option>Graphite</option><option>Signal red</option></select></label>
+<label>Payment<select id="pay"><option value="cash">Pay in full</option><option value="fin">Finance (8.9% p.a., 60 months, 10% down)</option></select></label>
+<label><span><input type="checkbox" id="chg" checked style="width:auto"> Include free home charger</span></label>
+<label>Full name<input required autocomplete="name"></label><label>Email<input type="email" required autocomplete="email"></label><label>Mobile number<input type="tel" required autocomplete="tel"></label>
+<button class="btn" type="submit">Reserve with ₹11,000</button><div class="note" id="ok">Thank you! Your booking is received. We will call you within one business day.</div></form>
+<aside class="sum" aria-live="polite"><h3>Order summary</h3><br><div><span>Car</span><span id="s1"></span></div><div><span>Festive bonus</span><span id="s2"></span></div><div><span>Home charger</span><span id="s3"></span></div><div><span id="s4l"></span><span id="s4"></span></div><div class="t"><span>Total</span><span id="s5"></span></div></aside></div></main>
+<footer>© 2026 Volta Motors. Photos from Unsplash. Prices are ex-showroom, in Indian rupees.</footer><script src="app.js"></script></body></html>
